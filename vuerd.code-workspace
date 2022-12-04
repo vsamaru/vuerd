@@ -1,0 +1,71 @@
+{
+  "folders": [
+    {
+      "name": "vuerd",
+      "path": "packages/vuerd"
+    },
+    {
+      "name": "vuerd-vscode",
+      "path": "packages/vuerd-vscode"
+    },
+    {
+      "name": "vuerd-app",
+      "path": "packages/vuerd-app"
+    },
+    {
+      "name": "plugin-generate-template",
+      "path": "packages/plugin-generate-template"
+    },
+    {
+      "name": "sql-ddl-parser",
+      "path": "packages/sql-ddl-parser"
+    },
+    {
+      "name": "lit-observable",
+      "path": "packages/lit-observable"
+    },
+    {
+      "name": "monorepo",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabCompletion": "on",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.format.enable": false,
+    "lit-plugin.rules.no-invalid-css": "off",
+    "lit-plugin.rules.no-incompatible-type-binding": "off"
+  },
+  "extensions": {
+    "recommendations": [
+      "editorconfig.editorconfig",
+      "dbaeumer.vscode-eslint",
+      "runem.lit-plugin",
+      "davidanson.vscode-markdownlint",
+      "esbenp.prettier-vscode",
+      "jpoissonnier.vscode-styled-components",
+      "dineug.vuerd-vscode",
+      "johnsoncodehk.volar",
+      "voorjaar.windicss-intellisense"
+    ],
+    "unwantedRecommendations": ["octref.vetur"]
+  }
+}

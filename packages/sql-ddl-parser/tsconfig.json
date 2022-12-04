@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES5",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@@types/*": ["types/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
